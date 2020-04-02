@@ -14,7 +14,7 @@
     <div class="container">
       @csrf
       <div  class="logo"><a href="/">
-        <img src="{{asset('assets/images/logo.png')}}" alt=""  class="d-block mx-auto  "/>
+        <img src="{{asset('assets/images/hair-salon-white.png')}}" alt=""  class="d-block mx-auto  "/>
          </a>
     </div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,8 +22,8 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mx-auto align-md-items-center ">
-             <li class="nav-item">
+        <ul class="navbar-nav mx-auto ml-auto ">
+             <li class="nav-item active ">
                 <a class="nav-link" href="/">Главная<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">

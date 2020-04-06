@@ -52,6 +52,7 @@ header .logo img{
     margin-top: 15px;
     padding: 10px 20px;
 }
+
 .bg-dark-blue{
     opacity: .9;
     position: relative;
@@ -108,4 +109,35 @@ header .logo img{
 }
 .navbar-light .navbar-toggler{
     background:#fff0f7;
+}
+
+
+
+
+
+@media screen and (max-width: 992px){
+
+    .navbar-collapse{
+        background: rgba(255, 255, 255, 1);
+        margin-top: 25px;
+        margin-left: -15px;
+        margin-right: -15px;
+        padding-left: 15px;
+    }
+    .navbar-light .navbar-nav .nav-link:focus:after,
+    .navbar-light .navbar-nav .nav-link:hover:after,
+    .navbar-light .navbar-nav .active .nav-link:after{
+        display: none;
+    }
+    .navbar-light .navbar-nav .active .nav-link{
+        text-decoration: underline;
+    }
+}
+@media screen and (max-width: 400px){
+    .home-page #headerId{
+        min-height: auto;
+        background-size: auto 181px;
+        background-position: 50% 0;
+    }
+
 }

@@ -34,11 +34,23 @@ header .logo img{
     border-radius: 100%;
 }
 
-#headerTotal {
+#headerId {
     flex: 0 0 auto;
-    background: url(../assets/images/bg3.jpg) 0 100% no-repeat;
+    background: url(../assets/images/bg.png) 0 100% no-repeat;
     background-size: 100% auto;
     min-height: 629px;
+}
+#footerId {
+    flex: 0 0 auto;
+    background: url(../assets/images/eqw.png) 0 100% no-repeat;
+    background-size: 100% auto;
+    min-height: 629px;
+}
+.container .main{
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    margin-top: 15px;
+    padding: 10px 20px;
 }
 .bg-dark-blue{
     opacity: .9;
